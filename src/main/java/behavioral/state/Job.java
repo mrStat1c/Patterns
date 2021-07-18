@@ -46,6 +46,4 @@ public class Job {
         this.state.onFinish();
     }
 
-    //todo нужны какие-то методы, внутри которых будут вызываться методы из State
-    // start, pause, stop ??
 }
