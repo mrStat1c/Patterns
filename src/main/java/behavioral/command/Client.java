@@ -17,5 +17,7 @@ public class Client {
         application.executeCommand(new RestartCommand(application));
 
         System.out.println(application.getCommandHistory().getHistory());
+
+//        todo сделать механизм очередей для запуска комманд
     }
 }
