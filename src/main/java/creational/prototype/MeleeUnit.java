@@ -13,7 +13,7 @@ public class MeleeUnit extends Unit {
     }
 
     @Override
-    public Unit clone() {
+    public MeleeUnit clone() {
         return new MeleeUnit(name, hp, damage, parryChance);
     }
 

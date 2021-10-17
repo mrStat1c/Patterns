@@ -13,7 +13,7 @@ public class DistanceUnit extends Unit {
     }
 
     @Override
-    public Unit clone() {
+    public DistanceUnit clone() {
         return new DistanceUnit(this.name, this.hp, this.damage, this.attackDistance);
     }
 
